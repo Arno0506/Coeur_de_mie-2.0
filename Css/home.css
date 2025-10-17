@@ -329,7 +329,7 @@ transform: scale(1.02);
  }
 
     body{
-      background-image: url(/Css/images/metisse.jpg);
+      background-image: url(Css/images/metisse.jpg);
       background-repeat: no-repeat;
       background-size:cover;
      background-color: rgb(235, 4, 35);
@@ -418,7 +418,7 @@ transform: scale(1.02);
 
 
   body{
-    background-image: url(/Css/images/fille\ donut.jpg);
+    background-image: url(Css/images/fille\ donut.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-color: darkred;
@@ -553,7 +553,7 @@ transform: scale(1.02);
     font-size: 2.1rem;
    }
    body{
-    background-image: url(/Css/images/assiette\ de\ gateau.jpg);
+    background-image: url(Css/images/assiette\ de\ gateau.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: darkred
@@ -665,7 +665,7 @@ transform: scale(1.02);
 @media screen and (min-width:800px) and (max-width:924px){
  
  body{
-  background-image: url(/Css/images/blue-baker.jpg );
+  background-image: url(Css/images/blue-baker.jpg );
   background-size: cover ;
   background-repeat: no-repeat;
   background-color:rgb(180, 126, 72);
@@ -764,7 +764,7 @@ line-height: 3px;
 
 @media screen and (min-width:600px) and (max-width:799px){
  body{
-  background-image: url(/Css/images/boulangère\ afro.jpg );
+  background-image: url(Css/images/boulangère\ afro.jpg );
   background-size: cover ;
   background-repeat: no-repeat;
   background-color:rgb(180, 126, 72);
@@ -858,7 +858,7 @@ line-height: 3px;
 @media screen and (min-width:423px) and (max-width:599px){
 
   body{
-  background-image: url(/Css/images/boulangère\ black.webp );
+  background-image: url(Css/images/boulangère\ black.webp );
   background-size: 600px ;
   background-repeat: no-repeat;
   background-color:rgb(180, 126, 72);
@@ -965,7 +965,7 @@ line-height: 3px;
 @media screen and (max-width:422px){
  
  body{
-  background-image: url(/Css/images/boulanger\ afro.jpg);
+  background-image: url(Css/images/boulanger\ afro.jpg);
   background-size:400px;
   background-repeat: no-repeat;
   
@@ -1065,6 +1065,7 @@ line-height: 3px;
 
    
   }
+
 
 
 
