@@ -1,0 +1,1075 @@
+
+.header-title h1{
+     
+    font-family:'segoe script';
+    font-weight:bolder;
+    font-size: 4rem;
+    top: 10%;
+    
+    position: absolute;
+    color: goldenrod;
+   animation: flashing 20s linear infinite alternate;
+
+   
+
+    
+}
+.header-logo img{
+    position: absolute;
+    width: 300px;
+    padding: 10px;
+    top: 60px;
+    left: 110px;
+
+
+}
+
+
+.header-title h1{
+  display: none;
+}
+.header-title h2{
+    font-family:'segoe script';
+    font-weight: bolder;
+    font-size: 2rem;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    color: goldenrod;
+    
+animation: flashing 15s linear infinite alternate;
+    
+}
+
+.content p{
+   position:absolute; 
+   top: 164%;
+   padding: 10px;
+   font-weight: bolder;
+   font-size: 1.5rem;
+   font-style: oblique;
+   font-family:'segoe script';
+   color:white;
+   background-color: brown;
+   text-align:justify;
+   width: 97.7%;
+
+}
+.content .content-category .breads{
+    
+    width: 450px;
+    height: 350px;
+    position: absolute;
+    background-color:brown;
+    top:123%;
+    left: 4%;
+
+}
+ 
+ 
+  .content .content-category .breads .bread-images img{
+    width: 400px;
+    
+    position: absolute;
+    right:6%;
+    animation: parade infinite 25s linear ;
+    opacity: 0;
+ 
+ } 
+  
+
+
+  .content .content-category .breads .bread-images img:nth-child(2){
+    animation-delay:12.25s;
+
+    
+  }
+  .content .content-category .breads .bread-images img:nth-child(3){
+    animation-delay:20.6s
+    
+  }
+  .content .content-category .breads .bread-images img:nth-child(1){
+    animation-delay:2.6s;
+    
+  }
+
+  
+  
+  
+ .breads .bread-title h3{
+    
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    color: white;
+    margin: 0;
+    border-bottom: none;
+    
+ } 
+ 
+ 
+ /************************************************* VIENNOISERIES********************************************************/  
+  
+ .content .content-category .pastries{
+    width: 450px;
+    height: 350px;
+    left:36%;
+    position: absolute;
+    background-color:brown;
+    top:123%;
+ 
+ }
+.content .content-category .pastries .pastries-images img{
+    width: 400px;
+    position: absolute;
+    right:6%;
+    animation: parade infinite 25s linear ;
+    opacity: 0;
+    
+ }
+ .content .content-category .pastries .pastries-images img:nth-child(1){
+      height: 265px;
+ }
+ .content .content-category .pastries .pastries-images img:nth-child(2){
+      height: 265px;
+ }
+
+ .content .content-category .pastries-images img:nth-child(2){
+    animation-delay: 12.25s;
+ }
+ .content .content-category .pastries-images img:nth-child(3){
+    animation-delay: 20.6s;
+ }
+ .content .content-category .pastries-images img:nth-child(1){
+    animation-delay: 2.6s;
+ }
+ .content .content-category .pastries .pastries-title h3{
+ text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    color: #ffffff;
+    margin: 0;
+    border-bottom: none;
+ }
+ 
+
+/******************************************************CAKES********************************************/
+
+
+.content .content-category .cakes{
+    width: 450px;
+    height: 350px;
+    left:68%;
+    position: absolute;
+    background-color:brown;
+    top:123%;
+    
+  
+}
+.content .content-category .cakes .cakes-images img{
+    width: 400px;
+    position: absolute;
+    right:6%;
+    animation: parade infinite 25s linear ;
+    opacity: 0;
+    
+}
+.content .content-category .cakes .cakes-images img:nth-child(2){
+    animation-delay: 12.25s;
+}
+.content .content-category .cakes .cakes-images img:nth-child(3){
+    animation-delay: 20.6s;
+}
+.content .content-category .cakes .cakes-images img:nth-child(1){
+    animation-delay: 2.6s;
+}
+.content .content-category .cakes .cakes-title h3{
+text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    color: #ffffff;
+    margin: 0;
+    border-bottom: none;
+}
+.content .content-category .cakes .cakes-title a{
+    text-decoration: none;
+}
+/*********************************************SIDE NAV*********************************************/
+.side-nav{
+    position: absolute;
+    font-size: 2rem;
+    text-transform: uppercase;
+    top: 70%;
+    color: black;
+    font-weight: bold;
+    height: 40px;
+    padding-right: 10px;
+    animation: slidein forwards 3s;
+    border-bottom-right-radius: 20px;
+    
+}
+
+.side-nav a{
+    text-decoration: none;
+    color: white;
+}
+
+.side-nav-item:hover{
+transform: scale(1.02);
+}
+
+.side-nav .side-nav-item:nth-child(2){
+   position: absolute;
+   top: 110px;
+   background-color:orchid;
+   padding-right: 10px;
+    border-bottom-right-radius: 20px;
+
+    
+}
+.side-nav .side-nav-item:nth-child(1){
+     background-color: brown;
+     padding-right: 10px;
+    border-bottom-right-radius: 20px;
+
+    
+}
+.side-nav .side-nav-item:nth-child(3){
+   position: absolute;
+   bottom: 50px;
+   background-color: aqua;
+   white-space: nowrap;
+   padding-top: 4px;
+  padding-right: 10px;
+    border-bottom-right-radius: 20px;
+
+
+    
+}
+.side-nav .side-nav-item:nth-child(4){
+   position: absolute;
+   bottom: -55px;
+   background-color: brown;
+   white-space: nowrap;
+   padding-top: 4px;
+   padding-right: 10px;
+   border-bottom-right-radius: 20px;
+    
+}
+
+
+/*********************************KEYFRAMES**************************************************/
+    
+ @keyframes slidein {
+    from{
+        margin-left: -100%;
+    }
+    to{
+        margin-left: 0%;
+    }
+ }
+    
+    
+
+@keyframes flashing {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+    
+}
+@keyframes parade {
+      0%,80%{
+        opacity:0;
+    }
+
+      50%{
+        opacity: 1;
+    }
+}
+/************************************************RESPONSIVE******************************************************/
+
+@media screen and (min-width:1201px) and (max-width:1740px){
+   .header-title h1{
+    top: 10%;
+   }  
+   .header-title h2{
+    top: 2%;
+    width: 40%;
+    animation: none;
+    color: rgb(187, 44, 44);
+   }  
+    .content .content-category .breads{
+    width: 350px;
+   height: 250px;
+   margin-top: 67%;
+   top: auto;
+   left: 1%;
+   background-color: rgb(247, 36, 65);
+    } 
+    .content .content-category .pastries{
+    width: 350px;
+   height: 250px;
+   margin-top: 67%;
+   top: auto;
+   left:35% ;
+   background-color: rgb(236, 36, 62);
+    } 
+
+     header .header-logo img{
+  left:10%;
+  width:250px ;
+  background-color: rgb(235, 4, 81);
+  top: 20%;
+  border-radius: 50px;
+  
+  
+ }
+
+    body{
+      background-image: url(/Css/images/metisse.jpg);
+      background-repeat: no-repeat;
+      background-size:cover;
+     background-color: rgb(235, 4, 35);
+     
+
+    }
+   
+    .content .content-category .cakes{
+    width: 350px;
+   height: 250px;
+   left:70%;
+   top: auto;
+   margin-top:67%;
+   background-color: rgb(240, 36, 63);
+    } 
+    .content .content-category .breads .bread-title h3{
+      font-size: 2.4rem;
+  
+    }
+     .content .content-category .pastries .pastries-title h3{
+      font-size: 2.4rem;
+    }
+     .content .content-category .cakes .cakes-title h3{
+      font-size: 2.4rem;
+    }
+
+     .content .content-category .cakes .cakes-images img{
+   width: 280px; 
+    right: 10%;
+   
+
+}
+     .content .content-category .breads .bread-images img{
+   width: 280px; 
+   right: 10% ;
+
+}
+     .content .content-category .pastries .pastries-images img{
+   width: 280px; 
+   right: 10%;
+   
+
+}
+     .content .content-category .pastries .pastries-images:nth-child(1) img{
+   height: 187px!important; 
+
+}
+     .content .content-category .pastries .pastries-images:nth-child(2) img{
+   height: 185px!important; 
+
+}
+ .content p{
+  top:auto;
+  text-align: justify;
+  width: 98%;
+   background-color: rgb(240, 36, 63);
+   margin-top: 82.5%;
+
+ }
+ .side-nav .side-nav-item:nth-child(1){
+  background-color: rgb(206, 22, 83);
+ }
+ .side-nav .side-nav-item:nth-child(2){
+  background-color: rgba(0, 0, 0, 0.829);
+ }
+ .side-nav .side-nav-item:nth-child(3){
+  background-color: darkgoldenrod;
+ }
+ .side-nav .side-nav-item:nth-child(4){
+  background-color: rgb(3, 3, 124)
+ }
+
+
+}
+
+@media screen and (min-width:1025px) and (max-width:1200px){
+  
+  header .header-logo img{
+  left:70%;
+  width:200px ;
+  background-color: darkmagenta;
+  top: 20%;
+  border-radius: 50px;
+  
+ }
+
+
+  body{
+    background-image: url(/Css/images/fille\ donut.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: darkred;
+    
+  }
+  .header-title h2{
+    top:5%;
+    animation: none;
+    color: darkmagenta;
+    font-size: 1.5rem;
+  width: 40%;
+    left:0%;
+   }
+  
+    .content .content-category .breads{
+    width: 330px;
+   height: 230px;
+   left:1%;
+   top: 105%;
+    } 
+    .content .content-category .pastries{
+    width: 330px;
+   height: 230px;
+  top: 105%;
+  left: 34%;
+    } 
+    .content .content-category .cakes{
+    width: 330px;
+   height: 230px;
+   left:67%;
+   top:105%;
+   
+    } 
+    .content .content-category .breads .bread-title h3{
+      font-size: 2rem;
+  
+    }
+     .content .content-category .pastries .pastries-title h3{
+      font-size: 2rem;
+    }
+     .content .content-category .cakes .cakes-title h3{
+      font-size: 2rem;
+    }
+
+     .content .content-category .cakes .cakes-images img{
+   width: 280px; 
+    right: 10%;
+    
+   
+
+}
+     .content .content-category .breads .bread-images img{
+   width: 280px; 
+   right: 10% ;
+
+}
+     .content .content-category .pastries .pastries-images img{
+   width: 280px; 
+   right: 10%;
+   
+
+}
+     .content .content-category .pastries .pastries-images:nth-child(1) img{
+   height: 187px!important; 
+
+}
+     .content .content-category .pastries .pastries-images:nth-child(2) img{
+   height: 185px!important; 
+
+}
+ .content p{
+  top:130%;
+  text-align:left;
+  max-width: 97%;
+  font-size: 1.4rem;
+  overflow: hidden;
+    
+  
+ }
+
+ .side-nav{
+  top:69%;
+  left: 0;
+ }
+ .side-nav .side-nav-item:nth-child(1){
+  height: 35px;
+  line-height: 25px;
+  
+  
+ 
+ }
+ .side-nav .side-nav-item:nth-child(2){
+  height: 35px;
+  line-height: 30px;
+  top: 110px;
+ 
+ }
+ .side-nav .side-nav-item:nth-child(3){
+  
+  height: 30px;
+  line-height: 15px;
+   background-color: rgb(21, 2, 39);
+
+ 
+ }
+ .side-nav .side-nav-item:nth-child(4){
+  line-height: 1px;
+  padding: 15px;
+  top: 60px;
+ background-color: blueviolet;
+  
+ 
+ }
+ .side-nav a{
+  font-size: 1.1rem;
+  
+  
+  
+ }
+
+
+}
+
+@media screen and (min-width:925px) and (max-width:1024px){
+   .header-title h1{
+    top: 10%;
+   }
+   .header-title h2{
+    animation:none;
+    top: -0.5%;
+    color: rgb(179, 129, 6);
+    font-size: 2.1rem;
+   }
+   body{
+    background-image: url(/Css/images/assiette\ de\ gateau.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: darkred
+   }
+   
+    .content .content-category .breads{
+    width: 280px;
+   height: 260px;
+   left: 2%;
+   top: 92%;
+   
+    } 
+    .content .content-category .breads .bread-images img{
+   width: 240px!important;
+   height: 185px;
+    } 
+    .content .content-category .pastries .pastries-images img{
+     width: 240px!important;
+     
+     
+  
+  
+    } 
+   
+    .content .content-category .cakes .cakes-images img{
+   width: 240px!important;
+   height: 185px;
+   
+   
+    } 
+    .content .content-category .pastries{
+    width: 280px;
+   height: 270px;
+  top: 92%;
+  left: 36%!important;
+    } 
+    .content .content-category .cakes{
+    width: 280px;
+   height: 260px;
+   left: 68% ;
+   top:92%;
+    } 
+    .content .content-category .breads .bread-title h3{
+      font-size: 1.8rem;
+  
+    }
+     .content .content-category .pastries .pastries-title h3{
+      font-size: 1.8rem;
+    }
+     .content .content-category .cakes .cakes-title h3{
+      font-size: 1.8rem;
+    }
+
+     .content .content-category .cakes .cakes-images img{
+   width: 280px; 
+    right: 10%;
+   
+
+}
+ header .header-logo img{
+  left:2%;
+  width:200px ;
+  
+ }
+
+     .content .content-category .breads .bread-images img{
+   width: 280px; 
+   right: 10% ;
+
+}
+     .content .content-category .pastries .pastries-images img{
+   width: 280px; 
+   right: 10%;
+   
+
+}
+     .content .content-category .pastries .pastries-images:nth-child(1) img{
+   height: 187px!important; 
+
+}
+     .content .content-category .pastries .pastries-images:nth-child(2) img{
+   height: 185px!important; 
+   
+
+}
+.side-nav{
+  top:55%;
+  left: 0;
+}
+.side-nav a{
+  padding-left: 5px;
+}
+ .content p{
+  top:115%;
+  text-align:left;
+  max-width: 97%;
+  font-size: 1.25rem;
+  height: 185px;
+  margin-left: -0.5%;
+  
+ }
+.side-nav .side-nav-item:nth-child(2){
+  background-color: aqua;
+}
+
+
+ }
+
+@media screen and (min-width:800px) and (max-width:924px){
+ 
+ body{
+  background-image: url(/Css/images/blue-baker.jpg );
+  background-size: cover ;
+  background-repeat: no-repeat;
+  background-color:rgb(180, 126, 72);
+  
+ }
+ 
+ 
+  .content p{
+    margin-top:67%;
+    top:auto;
+
+    width: 95%!important;
+     height: 200px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   background-color: rgb(187, 109, 7);
+  }
+  header .header-title h2{
+ font-size: 1.5rem;
+ animation: none;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ top: -1%;
+ left: -2%;
+ background-color: rgba(233, 182, 132, 0.377);
+ width: 102%;
+ text-align: center;
+ color: white;
+ 
+  }
+.side-nav{
+top: 20%;
+left:-1%;
+
+}
+
+.side-nav a{
+font-size: 1rem;
+line-height: 3px;
+
+
+}
+ 
+
+  .side-nav .side-nav-item:nth-child(1){
+   font-size: 2.5rem;
+   height: 16px;
+   padding: 15px;
+   background-color: brown;
+   line-height: 8px;
+   border-bottom-right-radius:20px;
+   
+   
+   
+  }
+
+   .side-nav .side-nav-item:nth-child(4){
+   font-size: 2.5rem;
+    padding: 15px;
+    top: 70px;
+    height: 20px;
+    line-height: 10px;
+    background-color: darkorange;
+    
+    
+      
+  }
+   .side-nav .side-nav-item:nth-child(3){
+   font-size: 2.5rem;
+    line-height: 10px;
+    padding: 15px;
+    background-color:green;
+    
+    
+      
+  }
+   .side-nav .side-nav-item:nth-child(2){
+   font-size: 2.5rem;
+    padding: 15px;
+    line-height: 5px;
+    top: 140px;
+    background-color: rgb(51, 29, 8);
+   }
+
+ header .header-logo img{
+  left:70%;
+  width:200px ;
+  
+ }
+
+  .content .content-category{
+    display: none;
+  }
+ 
+
+  
+} 
+
+@media screen and (min-width:600px) and (max-width:799px){
+ body{
+  background-image: url(/Css/images/boulangère\ afro.jpg );
+  background-size: cover ;
+  background-repeat: no-repeat;
+  background-color:rgb(180, 126, 72);
+  
+ }
+  header .header-title h2{
+    font-size: 1rem;
+    color:white;
+    top: 0;
+    text-transform: uppercase;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: -1.5%;
+    background-color: rgba(8, 8, 68, 0.329);
+    animation: none;
+    text-align: center;
+  }
+  .side-nav{
+    top:30%;
+    left: 0;
+    
+    
+   
+  }
+  .side-nav a{
+    color: white;
+    font-size: 0.9rem;
+    padding-left: 5px;
+  }
+  
+
+ .side-nav .side-nav-item:nth-child(1){
+        font-size: 1.2rem!important;
+        line-height: 40px!important;
+        background-color: rgb(5, 5, 211);
+        
+  }
+ .side-nav .side-nav-item:nth-child(2){
+        font-size: 1.2rem!important;
+        line-height: 40px!important;
+        background-color: peru;
+          
+  }
+  .side-nav .side-nav-item:nth-child(3){
+        font-size: 1.1rem!important;
+        padding: 10px;
+        background-color: darkcyan;
+         
+  }
+  .side-nav .side-nav-item:nth-child(4){
+        font-size: 1.2rem!important;
+        padding: 10px;
+                 
+  }
+  .side-nav .side-nav-item:nth-child(5){
+        font-size: 1.2rem!important;
+        padding: 10px;
+        top: 180px;
+        height: 20px;
+                 
+  }
+ 
+  
+
+ 
+  
+ .content .content-category{
+    display: none;
+  }
+  .content p{
+    margin-top:70%;
+    top: auto;
+    font-size: 1.4rem;
+    max-width: 94%;
+    background-color:rgb(146, 82, 59);
+    
+    font-family:Arial, Helvetica, sans-serif ;
+    
+    
+  }
+  header .header-logo img{
+    left:6%;
+    width: 100px!important;
+  }
+
+ 
+}
+
+
+
+@media screen and (min-width:423px) and (max-width:599px){
+
+  body{
+  background-image: url(/Css/images/boulangère\ black.webp );
+  background-size: 600px ;
+  background-repeat: no-repeat;
+  background-color:rgb(180, 126, 72);
+  
+  
+
+
+ }
+  header .header-title h2{
+    font-size: 0.8rem;
+  }
+  .side-nav{
+    top:25%;
+    left:0%
+   
+  }
+  .side-nav a{
+    color: white;
+    font-size: 0.8rem;
+    padding-left: 5px;
+    
+    
+  }
+  
+
+ .side-nav .side-nav-item:nth-child(1){
+        font-size: 0.5rem;
+        width: 165px;
+        white-space: wrap;
+        height: 40px;
+        line-height: 40px!important;
+        background-color: rgb(5, 5, 211);
+        
+        
+  }
+ .side-nav .side-nav-item:nth-child(2){
+        font-size: 1.2rem!important;
+        line-height: 40px!important;
+        background-color: peru;
+          
+  }
+  .side-nav .side-nav-item:nth-child(3){
+        font-size: 1rem!important;
+        padding: 10px;
+        background-color: darkcyan;
+        width: 100px;
+        white-space: nowrap;
+        
+         
+  }
+  .side-nav .side-nav-item:nth-child(4){
+        font-size: 1.2rem!important;
+        padding: 10px;
+                 
+  }
+  .side-nav .side-nav-item:nth-child(5){
+        font-size: 1.2rem!important;
+        padding: 10px;
+        top: 180px;
+        height: 20px;
+                 
+  }
+ 
+  .header-title h2{
+    animation:none;
+    font-family: cursive;
+    background-color:rgb(105, 36, 11);
+    color: white;
+    width: 102%;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    top: 0;
+    margin-left: -1.2%;
+    text-align: center;
+    
+    
+  }
+
+ 
+ .content .content-category{
+    display: none;
+  }
+  .content p{
+  
+    position: fixed;
+    top: 58%;
+    font-size: 1.5rem;
+    max-width: 92%;
+    background-color:rgb(129, 65, 42);
+    font-family:'Script MT Bold' ;
+    
+    
+  }
+  header .header-logo img{
+    left:0;
+    width: 100px;
+    top:2%;
+    
+  }
+
+
+ 
+}
+@media screen and (max-width:422px){
+ 
+ body{
+  background-image: url(/Css/images/boulanger\ afro.jpg);
+  background-size:400px;
+  background-repeat: no-repeat;
+  
+
+
+ }
+  header .header-title h2{
+    font-size: 1rem;
+  }
+  .side-nav{
+    top:38%;
+    left:0%
+   
+  }
+  .side-nav a{
+    color: white;
+    font-size: 0.8rem;
+    padding-left: 5px;
+    
+    
+  }
+  
+
+ .side-nav .side-nav-item:nth-child(1){
+        font-size: 0.5rem;
+        width: 155px;
+        white-space: wrap;
+        height: 40px;
+        line-height: 40px!important;
+        background-color: rgb(5, 5, 211);
+        
+        
+  }
+ .side-nav .side-nav-item:nth-child(2){
+        font-size: 1.2rem!important;
+        line-height: 40px!important;
+        background-color: peru;
+          
+  }
+  .side-nav .side-nav-item:nth-child(3){
+        font-size: 1rem!important;
+        padding: 10px;
+        background-color: darkcyan;
+        width: 100px;
+        white-space: nowrap;
+        
+         
+  }
+  .side-nav .side-nav-item:nth-child(4){
+        font-size: 1.2rem!important;
+        padding: 10px;
+                 
+  }
+  .side-nav .side-nav-item:nth-child(5){
+        font-size: 1.2rem!important;
+        padding: 10px;
+        top: 180px;
+        height: 20px;
+                 
+  }
+ 
+  .header-title h2{
+    animation:none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgba(255, 166, 0, 0.63);
+    color: white;
+    width: 100%;
+    font-size: 0.5rem;
+    text-transform: uppercase;
+    top: 0;
+    
+    margin-left: -2%;
+  }
+
+ 
+ .content .content-category{
+    display: none;
+  }
+  .content p{
+    top: 64% !important;
+    font-size: 1.2rem;
+    width: 97%;
+    background-color:rgb(146, 82, 59);
+    margin-left: -3%;
+    height: 300px;
+    padding-top: 20px;
+    font-family:Arial, Helvetica, sans-serif ;
+    
+    
+  }
+  header .header-logo img{
+    left:0;
+    width: 100px;
+    top:7%;
+    
+  }
+
+   
+  }
+
+
+
+
+
+
+
+

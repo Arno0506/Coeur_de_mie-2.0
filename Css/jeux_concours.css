@@ -1,0 +1,598 @@
+
+.background-image img{
+    width: 100%;
+    opacity: 0.1;
+}
+
+
+/**********************************************GAME-INFO******************************************/
+
+.game-info{
+    font-size: larger;
+    font-weight: bolder; 
+    width: 100%;
+ }
+ .game-info p{
+    background-color: aliceblue;
+    padding: 20px;
+    margin-top:-30px;
+ }
+ .home-icon i{
+    position: absolute;
+    top: 1%;
+    right: 2%;
+    font-size: 2rem;
+    color: rgb(4, 4, 95);
+ }
+.container .game-info h1{
+    background-color:mediumaquamarine;
+    padding: 10px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: rgb(3, 3, 194);
+    opacity: 0.8;
+ }
+
+/*********************************************WINNER-CODE****************************************************/
+.container .winner-code .balloon-codes{
+display: flex;
+gap: 60px;
+text-transform: uppercase;
+font-weight: bolder;
+font-size: 2.5rem;
+
+animation: stepin forwards linear 3s;
+
+ }
+ 
+ .winner-code .balloon-codes .first-balloon-code .first-code{
+    display: block;
+    background-color: antiquewhite;
+    padding: 30px;
+    border-radius: 100%;
+    height:100px;
+    width: 130px;
+    text-align: center;
+    animation: rolling  forwards 5.5s;
+   
+ }
+ .winner-code .balloon-codes .second-balloon-code .second-code{
+    display: block;
+    background-color: antiquewhite;
+    padding: 30px;
+    border-radius: 100%;
+    height:100px;
+    width: 130px;
+    text-align: center;
+    animation: rolling forwards 6.5s;
+ }
+ .winner-code .balloon-codes .third-balloon-code .third-code{
+    display: block;
+    background-color: antiquewhite;
+    padding: 30px;
+    border-radius: 100%;
+    height:100px;
+    width: 130px;
+    text-align: center;
+   animation: rolling forwards 7s;
+ }
+ .winner-code .balloon-codes .first-balloon-code {
+    display: flex;
+    margin-top: 15px;
+    
+ }
+ .winner-code .balloon-codes .second-balloon-code{
+    display: flex;
+    margin-top: 15px;
+    margin-left:17px ;
+ }
+ .winner-code .balloon-codes .third-balloon-code{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+ }
+.container .winner-code{
+    
+    background-color: mediumaquamarine;
+    margin-top: -70%;
+    width: 97.5%;
+    padding:20px;
+    padding-bottom: 40px;
+
+    
+    
+ }
+ .winner-code h1{
+    padding: 20px;
+    text-transform: uppercase;
+    margin-top:-30px;
+    color: mediumblue;
+    animation: flashing 1.5s alternate infinite;
+ }
+ 
+ .winner-code-icon i{
+    font-size: 8rem;
+    color: blue;
+    transform: rotate(360deg);
+    transition: 4s;
+    
+ }
+ /***************************************WINNER-ANNOUNCE*********************************************/
+
+ .container .winner-announce{
+    width: 100%;
+    background-color: mediumaquamarine;
+    font-weight: bold;
+    font-size: 1.90rem;
+    margin-top: -3%;
+    padding-bottom: 50px;
+    
+ }
+.container .winner-announce p{
+    color: blue;
+ }
+.container .winner-announce .winner-price-image img{
+    width: 300px;
+    border-radius: 100%;
+ }
+.container .winner-announce .winner-price{
+    display: flex;
+    gap: 50px;
+    
+ }
+ 
+ /********************************************KEYFRAMES***************************************************/
+
+   
+ @keyframes flashing {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+ }
+ @keyframes stepin {
+    from{
+        margin-left: -100%;
+        
+    }
+   
+    to{
+        margin-left: 6%;
+    }
+ }
+ @keyframes rolling {
+    from{
+        transform: rotate(-360deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+ }
+
+ /**************************************************************responsive********************************************************************/
+ @media screen and (min-width:1000px) and (max-width:1330px){
+
+   .container .game-info h1{
+   font-size: 2rem;
+}
+.container .game-info p{
+   font-size: 1.19rem;
+}
+.container .winner-code{
+   max-width:96.5%;
+}
+.container .winner-announce{
+   margin-top: -4%;
+}
+.container .winner-code .balloon-codes{
+   gap: 5px;
+}
+ @keyframes stepin {
+    from{
+        margin-left: -100%;
+        
+    }
+   
+    to{
+        margin-left: 0%;
+    }
+ }
+
+ }
+ @media screen and (min-width:770px) and (max-width:999px){
+
+   .container .game-info h1{
+   font-size: 2rem;
+}
+.container .game-info p{
+   font-size: 1.19rem;
+}
+.container .winner-code{
+  max-width:95%;
+}
+.container .winner-code h1{
+   font-size: 1.5rem;
+}
+.container .winner-announce{
+   margin-top: -6%;
+}
+
+.container .winner-code .balloon-codes .first-balloon-code {
+   width: 30px;
+   padding-right: 40px;
+   
+  
+}
+.container .winner-code .balloon-codes .first-balloon-code .first-code {
+ width: 70px;
+ height: 60px;
+  
+}
+.container .winner-code .balloon-codes .second-balloon-code {
+   width: 30px;
+   height: 10px;
+   padding-right: 50px;
+  }
+
+.container .winner-code .balloon-codes .second-balloon-code .second-code {
+ width: 70px;
+ height: 60px;
+  
+}
+
+
+
+.container .winner-code .balloon-codes .third-balloon-code {
+   width: 30px;
+   height: 10px;
+   padding-right: 50px;
+}
+.container .winner-code .balloon-codes .third-balloon-code .third-code {
+ width: 70px;
+ height: 60px;
+  
+}
+.container .winner-price p{
+   font-size: 1.5rem;
+}
+.container .winner-price .winner-price-image img{
+   margin-left: -100px;
+}
+
+
+ @keyframes stepin {
+    from{
+        margin-left: -100%;
+        
+    }
+   
+    to{
+        margin-left:0%;
+    }
+ }
+
+ }
+ @media screen and (min-width:500px) and (max-width:769px){
+
+   
+
+.container .home-icon i{
+   font-size: 1.5rem;
+   margin-left:90%;
+}
+   .container .game-info h1{
+   font-size: 1.5rem;
+}
+.container .game-info p{
+   font-size: 1rem;
+}
+.container .winner-code{
+  max-width:94.5%;
+}
+.container .winner-code h1{
+   font-size: 1.2rem;
+}
+.container .winner-announce{
+   margin-top: -7%;
+}
+.container .winner-code .balloon-codes .winner-code-icon{
+   display: none;
+}
+.container .winner-code .balloon-codes .first-balloon-code {
+   width: 30px;
+   padding-right: 40px;
+   
+  
+}
+.container .winner-code .balloon-codes .first-balloon-code .first-code {
+ width: 70px;
+ height: 60px;
+  
+}
+.container .winner-code .balloon-codes .second-balloon-code {
+   width: 30px;
+   height: 10px;
+   padding-right: 50px;
+  }
+
+.container .winner-code .balloon-codes .second-balloon-code .second-code {
+ width: 70px;
+ height: 60px;
+  
+}
+
+
+
+.container .winner-code .balloon-codes .third-balloon-code {
+   width: 30px;
+   height: 10px;
+   padding-right: 50px;
+}
+.container .winner-code .balloon-codes .third-balloon-code .third-code {
+ width: 70px;
+ height: 60px;
+  
+}
+.container .winner-announce p{
+   font-size:1.4rem ;
+}
+.container .winner-price p{
+   font-size: 1.1rem;
+}
+.container .winner-price h2{
+   font-size: 1.1rem;
+}
+.container .winner-price .winner-price-image img{
+   margin-left: -100px;
+   width: 200px;
+}
+
+
+ @keyframes stepin {
+    from{
+        margin-left: -100%;
+        
+    }
+   
+    to{
+        margin-left:0%;
+    }
+ }
+
+ }
+ @media screen and (min-width:355px) and (max-width:499px){
+.container{
+   max-width: 100%;
+}
+   .container .game-info h1{
+   font-size: 1.2rem;
+}
+.container .home-icon i{
+   font-size: 1.3rem;
+  padding-right: 10px;
+}
+.container .game-info p{
+   font-size: 1rem;
+}
+.container .winner-code{
+   
+   width:92%;
+   
+}
+
+.container .winner-code h1{
+   font-size: 1.2rem;
+}
+.container .winner-announce{
+   margin-top: -7%;
+
+   
+}
+.container .winner-code .balloon-codes .winner-code-icon{
+   display: none;
+}
+.container .winner-code .balloon-codes{
+   gap: 70px;
+   
+}
+
+
+.container .winner-code .balloon-codes .first-balloon-code {
+   width: 40px;
+   padding-right: 2px;
+   
+   
+  
+}
+.container .winner-code .balloon-codes .first-balloon-code .first-code {
+ width: 35px;
+ padding:40px;
+ height: 30px;
+ padding-left:25px;
+ font-size: 1.5rem;
+  
+}
+.container .winner-code .balloon-codes .second-balloon-code {
+    width: 40px;
+   margin-left: 6px;
+
+   
+  }
+
+.container .winner-code .balloon-codes .second-balloon-code .second-code {
+
+   
+  width: 40px;
+   height: 50px;
+   padding:30px;
+   margin-top:5px;
+   font-size: 1.5rem;
+  
+}
+
+
+
+.container .winner-code .balloon-codes .third-balloon-code {
+   width: 30px;
+   height: 10px;
+   padding-right: 50px;
+}
+.container .winner-code .balloon-codes .third-balloon-code .third-code {
+ width: 40px;
+ height: 50px;
+ padding-left:30px;
+ margin-top: 11px;
+ font-size: 1.5rem;
+  
+}
+.container .winner-announce{
+width:104%;
+
+}
+.container .winner-announce p{
+   font-size:1.1rem ;
+   
+}
+.container .winner-price p{
+   font-size: 1.1rem;
+}
+.container .winner-price h2{
+   font-size: 1.1rem;
+}
+.container .winner-price .winner-price-image img{
+   margin-left: -140px;
+   width: 200px;
+}
+
+
+ @keyframes stepin {
+    from{
+        margin-left: -100%;
+        
+    }
+   
+    to{
+        margin-left:-4%;
+    }
+ }
+
+ }
+ @media screen  and (max-width:354px){
+.container{
+   max-width: 100%;
+}
+   .container .game-info h1{
+   font-size: 1rem;
+}
+.container .home-icon i{
+   font-size: 1.3rem;
+  padding-right: 10px;
+}
+.container .game-info p{
+   font-size: 1rem;
+}
+.container .winner-code{
+   
+   width:92%;
+   
+}
+
+.container .winner-code h1{
+   font-size: 1.2rem;
+}
+.container .winner-announce{
+   margin-top: -7%;
+   
+}
+.container .winner-code .balloon-codes .winner-code-icon{
+   display: none;
+}
+.container .winner-code .balloon-codes{
+   gap: 55px;
+   
+}
+
+
+.container .winner-code .balloon-codes .first-balloon-code {
+   width: 40px;
+   padding-right: 2px;
+   
+   
+  
+}
+.container .winner-code .balloon-codes .first-balloon-code .first-code {
+ width: 35px;
+ padding:40px;
+ height: 30px;
+ padding-left:25px;
+ font-size: 1.5rem;
+  
+}
+.container .winner-code .balloon-codes .second-balloon-code {
+    width: 40px;
+   margin-left: 6px;
+
+   
+  }
+
+.container .winner-code .balloon-codes .second-balloon-code .second-code {
+
+   
+  width: 40px;
+   height: 50px;
+   padding:30px;
+   margin-top:5px;
+   font-size: 1.5rem;
+  
+}
+
+
+
+.container .winner-code .balloon-codes .third-balloon-code {
+   width: 30px;
+   height: 10px;
+   padding-right: 50px;
+}
+.container .winner-code .balloon-codes .third-balloon-code .third-code {
+ width: 40px;
+ height: 50px;
+ padding-left:30px;
+ margin-top: 11px;
+ font-size: 1.5rem;
+  
+}
+.container .winner-announce{
+width:104%;
+
+}
+.container .winner-announce p{
+   font-size:1.4rem ;
+   
+}
+.container .winner-price p{
+   font-size: 1.1rem;
+}
+.container .winner-price h2{
+   font-size: 1.1rem;
+}
+.container .winner-price .winner-price-image img{
+   margin-left: -100px;
+   width: 200px;
+}
+
+
+ @keyframes stepin {
+    from{
+        margin-left: -100%;
+        
+    }
+   
+    to{
+        margin-left:-6.8%;
+    }
+ }
+
+ }

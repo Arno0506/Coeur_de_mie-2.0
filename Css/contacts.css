@@ -1,0 +1,85 @@
+body{
+    background-color: peru;
+    
+}
+.container .contact-items .contact-item{
+    background-color: burlywood;
+    width: 300px;
+    padding: 10px;
+    border: 2px solid;
+    height: 220px;
+   
+}
+
+.container .contact-item h2{
+    text-transform: uppercase;
+    color:orangered;
+    font-size: large;
+    white-space: nowrap;
+    
+}
+
+
+.container .contact-item h6{
+   
+    font-size: 0.90rem;
+    
+    padding-top: 0;
+    
+}
+.container h1{
+    text-transform: uppercase;
+    color:maroon;
+}
+.container .contact-items{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 30px;
+    
+    
+
+}
+.container .contact-title{
+    display: flex;
+    justify-content: space-between;
+}
+.house-icon i{
+    font-size: 1.9rem;
+    color:maroon
+}
+
+/***************************************************************responsive********************************************************************/
+
+@media screen and (min-width:1000px) and (max-width:1200px){
+
+    .container .contact-items .contact-item h6{
+   
+    font-size: 0.9rem;
+    margin:0;
+  
+}
+
+}
+@media screen and (min-width:600px) and (max-width:850px){
+
+    .container .contact-items .contact-item h6{
+   
+    font-size: 0.9rem;
+    margin:0;
+  
+}
+
+}
+@media screen  and (max-width:450px){
+
+    .container .contact-items .contact-item h6{
+   
+    font-size: 0.9rem;
+    margin:0;
+  
+}
+
+}
+    

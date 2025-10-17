@@ -1,0 +1,148 @@
+.background-image img{
+    width: 40%;
+    position: relative;
+
+    
+}
+.delivery-map img{
+    width: 40%;
+    position: absolute;
+    top: 80%;
+    left:1%;
+    border-top-left-radius: 52%;
+}
+.delivery-status{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    background-color:pink;
+    color:green;
+    height: 160%;
+    
+}
+.delivery-status h3{
+    font-size: 1.7rem;
+    margin: 80px;
+    margin-left: 5px;
+    font-weight: bolder;
+    font-style: oblique;
+    text-align: center;
+}
+.delivery-status h1{
+    text-transform: uppercase;
+    color: brown;
+    animation: flashing infinite alternate linear 3s;
+    text-align: center;
+}
+.delivery-status-icon i{
+    font-size: 2rem;
+    position: absolute;
+    top:1%; 
+    color: brown;
+    
+
+}
+
+
+@keyframes flashing {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+
+/*****************************************RESPONSIVE***********************************************************/
+
+@media screen and (min-width:1130px) and (max-width:1278px) {
+    .delivery-map img{
+    width: 30%;
+    position: absolute;
+    top: 80%;
+    left:1%;
+    border-top-left-radius: 52%;
+}
+
+
+}
+@media screen and (min-width:1090px) and (max-width:1129px) {
+    .delivery-map img{
+    width: 30%;
+    position: absolute;
+    top: 60%;
+    left:1%;
+    border-top-left-radius: 52%;
+}
+.background-image img{
+    width: 30%;
+    position: absolute;
+
+    
+}
+
+}
+@media screen and (min-width:1000px) and (max-width:1089px) {
+    .delivery-map img{
+    width: 23%;
+    position: absolute;
+    top: 52%;
+    left:1%;
+    border-top-left-radius: 52%;
+}
+.background-image img{
+    width: 27%;
+    position: absolute;
+
+    
+}
+
+}
+@media screen and (min-width:940px) and (max-width:999px) {
+    .delivery-map img{
+    width: 19%;
+    position: absolute;
+    top: 52%;
+    left:1%;
+    border-top-left-radius: 52%;
+    display: none;
+}
+.background-image img{
+    top: 23%;
+    width: 19%;
+    position: absolute;
+
+   display: none; 
+}
+
+}
+@media screen and (max-width:939px) {
+    .delivery-map img{
+  
+    display:none ;
+}
+.background-image img{
+    display: none;
+    
+}
+
+.delivery-status-icon i{
+    font-size: 1.2rem;
+    position: absolute;
+    top:0.5%;
+    left: 0.5%; 
+    color: brown;
+    
+
+}
+.delivery-status h1{
+    margin-top: 150px;
+}
+
+
+.delivery-status h3{
+    font-size: larger;
+    margin-left: 80px;
+}
+
+}
