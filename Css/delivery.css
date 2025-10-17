@@ -432,11 +432,11 @@ transform:scale(1.2);
     display: none;
 }
 .delivery-images img:nth-child(6){
-    width: 100px;
+    width: 90px;
     top: 7%;
     left: 4%;
-    height: 120px;
-    z-index: 7;
+    height: 100px;
+    z-index: 3;
     
 }
 
@@ -531,4 +531,5 @@ transform:scale(1.2);
 
 
 }
+
 
